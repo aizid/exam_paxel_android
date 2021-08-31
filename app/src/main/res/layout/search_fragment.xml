@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="androidx.lifecycle.LiveData" />
+
+        <variable
+            name="retryCallback"
+            type="com.aizidev.examapps.ui.common.RetryCallback" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:context=".ui.search.SearchFragment">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/srv_search_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/corner_line_primary_dark_rad_5"
+            android:focusable="false"
+            app:iconifiedByDefault="false"
+            app:queryBackground="@android:color/transparent"
+            app:queryHint="Search Employee"
+            tools:ignore="ObsoleteLayoutParam" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcv_search_fragment_emp"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingTop="10dip"
+            android:scrollbars="none"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/layout_item_rcv_employee_search" />
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/bg_corner_white_shadow_12_radius.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/drawable/corner_line_gray.xml" value="0.2851851851851852" />
+        <entry key="app/src/main/res/drawable/ic_icon_back.xml" value="0.2851851851851852" />
+        <entry key="app/src/main/res/drawable/ic_icon_no_image_s.xml" value="0.2851851851851852" />
+        <entry key="app/src/main/res/drawable/ic_icon_search.xml" value="0.2851851851851852" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.28205128205128205" />
+        <entry key="app/src/main/res/layout/detail_fragment.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/home_fragment.xml" value="0.2638888888888889" />
+        <entry key="app/src/main/res/layout/layout_item_rcv_employee_home.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/layout/layout_item_rcv_employee_search.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/layout_item_rcv_movie_home.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/layout_master_toolbar.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/search_fragment.xml" value="0.3098958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
